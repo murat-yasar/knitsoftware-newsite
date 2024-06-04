@@ -1,0 +1,27 @@
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: solid 1px #ccc;
+  padding: 10px 10px;
+  column-gap: 10px;
+}
+
+.column {
+  display: block;
+  justify-content: space-around;
+  padding: 10px 10px;
+  column-gap: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  column-gap: 5px;
+}
