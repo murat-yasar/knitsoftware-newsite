@@ -31,21 +31,23 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Menu />
-        <Routes>
-          <Route index element={<Home />} />   
-          <Route path='challenges' element={<Challenges />} />
-          <Route path='what' element={<What />} />
-          <Route path='approach' element={<Approach />} />
-          <Route path='contact' element={<Contact />} />
+          <div className='main'>
+            <Routes>
+              <Route index element={<Home />} />   
+              <Route path='challenges' element={<Challenges />} />
+              <Route path='what' element={<What />} />
+              <Route path='approach' element={<Approach />} />
+              <Route path='contact' element={<Contact />} />
 
-          <Route path='about' element={<About />} />
-          <Route path='clients' element={<Clients />} />
-          <Route path='products' element={<Products />} />
+              <Route path='about' element={<About />} />
+              <Route path='clients' element={<Clients />} />
+              <Route path='products' element={<Products />} />
 
-          <Route path='terms' element={<Terms />} />
-          <Route path='privacy' element={<Privacy />} />
-          <Route path='cookie' element={<Cookie />} />
-        </Routes>
+              <Route path='terms' element={<Terms />} />
+              <Route path='privacy' element={<Privacy />} />
+              <Route path='cookie' element={<Cookie />} />
+            </Routes>
+          </div>
         <Footer />
       </BrowserRouter>
     </div>
