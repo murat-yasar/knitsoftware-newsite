@@ -1,27 +1,49 @@
-ul, li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+/*--------------------------------------------------------------
+# Imports
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+.fredokaKnit {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-around;
-  border-top: solid 1px #ccc;
-  padding: 10px 10px;
-  column-gap: 10px;
+/*--------------------------------------------------------------
+# LOGO
+--------------------------------------------------------------*/
+.styleKnit {
+  float: right;
+  color: #ffffff;
+  font-size: 60px;
 }
 
-.column {
-  display: block;
-  justify-content: space-around;
-  padding: 10px 10px;
-  column-gap: 10px;
+.styleSoftware {
+  color: #ffffff;
+  margin-top: -10px;
+  font-size: 20px;
+  letter-spacing: 6px;
 }
 
-.social {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 10px;
-  column-gap: 5px;
+/*--------------------------------------------------------------
+# COLS
+--------------------------------------------------------------*/
+.footerBG {
+  background-color: #0c2543;
+}
+
+.colMiddle {
+  padding-left: -45px;
+}
+
+.colRight {
+  margin-top: -15px;
+}
+
+.btnContactUs {
+  background-color: #18474D;
+  color: #DDE9D3;
+  width: 150p;
 }

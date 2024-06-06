@@ -14,11 +14,10 @@ import Footer from './components/Footer'
 // Pages
 import Home from './pages/Home'
 import Challenges from './pages/Challenges'
-import What from './pages/What'
+import About from './pages/About'
 import Approach from './pages/Approach'
 import Contact from './pages/Contact'
 
-import About from './pages/About'
 import Clients from './pages/Clients'
 import Products from './pages/Products'
 
@@ -35,11 +34,10 @@ function App() {
             <Routes>
               <Route index element={<Home />} />   
               <Route path='challenges' element={<Challenges />} />
-              <Route path='what' element={<What />} />
+              <Route path='about' element={<About />} />
               <Route path='approach' element={<Approach />} />
               <Route path='contact' element={<Contact />} />
 
-              <Route path='about' element={<About />} />
               <Route path='clients' element={<Clients />} />
               <Route path='products' element={<Products />} />
 
